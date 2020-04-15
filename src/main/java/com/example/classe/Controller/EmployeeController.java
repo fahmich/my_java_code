@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.classe.Exception.ResourceNotFoundException;
 import com.example.classe.Model.Employee;
 import com.example.classe.Repository.EmployeeRepository;
-@CrossOrigin("*")
+@CrossOrigin ("*")
 @RestController
 @RequestMapping("/api/v1")
 public class EmployeeController {
